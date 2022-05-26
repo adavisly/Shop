@@ -1,0 +1,12 @@
+﻿@model HomeViewModel
+
+<h1>Любимая манга</h1>
+<div class="row mt-5 mb-2">
+    @{
+        foreach (Manga manga in Model.favManga)
+        {
+            @Html.Partial("AllManga", manga)
+        }
+    }
+</div>
+

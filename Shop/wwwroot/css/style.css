@@ -1,0 +1,12 @@
+﻿body {
+    background: #fcfcfc;
+}
+.form-inline {
+    display: flex;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.search-btn {
+    margin-left: 5px;
+}
